@@ -2,19 +2,14 @@
 
 Site professionnel pour KAB'ALSA Services Fruhauf - Services d'entretien et d'aménagement paysager en Alsace.
 
-## Déploiement sur GitHub Pages
+## Fichiers à uploader sur GitHub
 
-1. Poussez ce dossier vers votre repository GitHub
-2. Allez à Settings → Pages
-3. Sélectionnez `main` comme branche
-4. Sélectionnez `/root` comme dossier source
-5. Cliquez "Save"
+- index.html
+- assets/ (dossier complet)
+- images/ (dossier complet)
+- CNAME
+- .nojekyll
+- README.md
 
-Le site sera en ligne en quelques minutes !
-
-## Configuration du domaine OVH
-
-Dans votre Zone DNS OVH, ajoutez un enregistrement CNAME :
-- Nom : `@`
-- Cible : `votre-username.github.io`
+Ne pas uploader le dossier __manus__/
 
